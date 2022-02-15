@@ -123,6 +123,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1206237.ico" />
+    <None Include="Resources\Combo 1.1.png" />
+    <None Include="Resources\Combo 2.1.jpg" />
+    <None Include="Resources\Combo 3.1.png" />
+    <None Include="Resources\Combo-2.jpg" />
+    <None Include="Resources\combo-3.jpg" />
+    <None Include="Resources\Combo 1.png" />
+    <None Include="Resources\combo 4.png" />
+    <None Include="Resources\combo 5.jpg" />
+    <None Include="Resources\Combo 6.jpg" />
     <None Include="Resources\Fondo menu combos 1.2.jpg" />
     <None Include="Resources\info.png" />
     <None Include="Resources\diskette.png" />
