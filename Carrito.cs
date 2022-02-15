@@ -16,5 +16,10 @@ namespace Asadero_Pollitos_En_Fuga
         {
             InitializeComponent();
         }
+
+        private void Carrito_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
