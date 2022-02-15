@@ -275,6 +275,7 @@
             this.btnExtras.TabIndex = 20;
             this.btnExtras.Text = "Extras";
             this.btnExtras.UseVisualStyleBackColor = false;
+            this.btnExtras.Click += new System.EventHandler(this.btnExtras_Click);
             // 
             // MenuPlatos
             // 
@@ -310,7 +311,6 @@
             this.Name = "MenuPlatos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asadero Pollitos En Fuga";
-            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmrcSecoPollo)).EndInit();

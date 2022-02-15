@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Asadero_Pollitos_En_Fuga
 {
-    public partial class Form3 : Form
+    public partial class MenuExtras : Form
     {
-        public Form3()
+        public MenuExtras()
         {
             InitializeComponent();
         }
@@ -30,6 +30,18 @@ namespace Asadero_Pollitos_En_Fuga
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void nmrcGaseosas_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCarrito_Click(object sender, EventArgs e)
+        {
+            Carrito carrito = new Carrito();
+            this.Hide();
+            carrito.Show();
         }
     }
 }

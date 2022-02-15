@@ -1,6 +1,6 @@
 ﻿namespace Asadero_Pollitos_En_Fuga
 {
-    partial class Form3
+    partial class MenuExtras
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuExtras));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -137,6 +137,7 @@
             this.nmrcGaseosas.Name = "nmrcGaseosas";
             this.nmrcGaseosas.Size = new System.Drawing.Size(38, 20);
             this.nmrcGaseosas.TabIndex = 4;
+            this.nmrcGaseosas.ValueChanged += new System.EventHandler(this.nmrcGaseosas_ValueChanged);
             // 
             // label4
             // 
@@ -431,8 +432,9 @@
             this.btnCarrito.TabIndex = 31;
             this.btnCarrito.Text = "Carrito";
             this.btnCarrito.UseVisualStyleBackColor = false;
+            this.btnCarrito.Click += new System.EventHandler(this.btnCarrito_Click);
             // 
-            // Form3
+            // MenuExtras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -476,7 +478,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form3";
+            this.Name = "MenuExtras";
             this.Text = "Asadero Pollitos En Fuga";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmrcGaseosas)).EndInit();

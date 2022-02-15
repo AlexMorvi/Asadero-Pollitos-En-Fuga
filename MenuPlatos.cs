@@ -16,6 +16,12 @@ namespace Asadero_Pollitos_En_Fuga
         {
             InitializeComponent();
         }
-        
+
+        private void btnExtras_Click(object sender, EventArgs e)
+        {
+            MenuExtras menuExtras = new MenuExtras();
+            this.Hide();
+            menuExtras.Show();
+    }
     }
 }
