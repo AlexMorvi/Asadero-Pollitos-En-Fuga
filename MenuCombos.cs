@@ -21,5 +21,10 @@ namespace Asadero_Pollitos_En_Fuga
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

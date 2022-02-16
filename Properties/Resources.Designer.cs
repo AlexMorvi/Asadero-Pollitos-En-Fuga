@@ -103,6 +103,16 @@ namespace Asadero_Pollitos_En_Fuga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Combo_1_2 {
+            get {
+                object obj = ResourceManager.GetObject("Combo 1.2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Combo_2 {
             get {
                 object obj = ResourceManager.GetObject("Combo-2", resourceCulture);
@@ -116,6 +126,16 @@ namespace Asadero_Pollitos_En_Fuga.Properties {
         internal static System.Drawing.Bitmap Combo_2_1 {
             get {
                 object obj = ResourceManager.GetObject("Combo 2.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap COmbo_2_3 {
+            get {
+                object obj = ResourceManager.GetObject("COmbo 2.3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +163,29 @@ namespace Asadero_Pollitos_En_Fuga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Combo_3_2 {
+            get {
+                object obj = ResourceManager.GetObject("Combo 3.2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap combo_4 {
             get {
                 object obj = ResourceManager.GetObject("combo 4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Combo_4_2 {
+            get {
+                object obj = ResourceManager.GetObject("Combo 4.2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +203,39 @@ namespace Asadero_Pollitos_En_Fuga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Combo_5_1 {
+            get {
+                object obj = ResourceManager.GetObject("Combo 5.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Combo_5_2 {
+            get {
+                object obj = ResourceManager.GetObject("Combo 5.2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Combo_6 {
             get {
                 object obj = ResourceManager.GetObject("Combo 6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Combo_6_1 {
+            get {
+                object obj = ResourceManager.GetObject("Combo 6.1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

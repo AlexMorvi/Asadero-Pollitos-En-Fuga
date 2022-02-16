@@ -29,62 +29,53 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuCombos));
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.lblCmbs = new System.Windows.Forms.Label();
+            this.lblNmbrCmb1 = new System.Windows.Forms.Label();
+            this.nmrcCombo1 = new System.Windows.Forms.NumericUpDown();
+            this.nmrcCombo2 = new System.Windows.Forms.NumericUpDown();
+            this.nmrcCombo3 = new System.Windows.Forms.NumericUpDown();
+            this.pctrCombo1 = new System.Windows.Forms.PictureBox();
+            this.pctrCombo2 = new System.Windows.Forms.PictureBox();
+            this.pctrCombo3 = new System.Windows.Forms.PictureBox();
+            this.pctrCombo4 = new System.Windows.Forms.PictureBox();
+            this.pctrCombo5 = new System.Windows.Forms.PictureBox();
+            this.pctrCombo6 = new System.Windows.Forms.PictureBox();
+            this.lblDtllsCmb1 = new System.Windows.Forms.Label();
+            this.lblNmbrCmb2 = new System.Windows.Forms.Label();
+            this.lblDtllsCmb2 = new System.Windows.Forms.Label();
+            this.lblNmbrCmb3 = new System.Windows.Forms.Label();
+            this.lblDtllsCmb3 = new System.Windows.Forms.Label();
+            this.lblDtllsCmb4 = new System.Windows.Forms.Label();
+            this.nmrcCombo4 = new System.Windows.Forms.NumericUpDown();
+            this.lblNmbrCmb4 = new System.Windows.Forms.Label();
+            this.lblDtllsCmb5 = new System.Windows.Forms.Label();
+            this.nmrcCombo5 = new System.Windows.Forms.NumericUpDown();
+            this.lblNmbrCmb5 = new System.Windows.Forms.Label();
+            this.lblDtllsCmb6 = new System.Windows.Forms.Label();
+            this.nmrcCombo6 = new System.Windows.Forms.NumericUpDown();
+            this.lblNmbrCmb6 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo6)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.BackgroundImage = global::Asadero_Pollitos_En_Fuga.Properties.Resources.info;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button3.Location = new System.Drawing.Point(1136, 685);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 36);
-            this.button3.TabIndex = 5;
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.BackgroundImage = global::Asadero_Pollitos_En_Fuga.Properties.Resources.previous;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button2.Location = new System.Drawing.Point(1030, 685);
+            this.button2.Location = new System.Drawing.Point(1136, 685);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 36);
             this.button2.TabIndex = 4;
@@ -101,221 +92,291 @@
             this.button1.TabIndex = 3;
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // lblCmbs
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 47.99999F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(561, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 65);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Combos";
+            this.lblCmbs.AutoSize = true;
+            this.lblCmbs.BackColor = System.Drawing.Color.Transparent;
+            this.lblCmbs.Font = new System.Drawing.Font("Modern No. 20", 47.99999F, System.Drawing.FontStyle.Bold);
+            this.lblCmbs.Location = new System.Drawing.Point(561, 9);
+            this.lblCmbs.Name = "lblCmbs";
+            this.lblCmbs.Size = new System.Drawing.Size(228, 65);
+            this.lblCmbs.TabIndex = 6;
+            this.lblCmbs.Text = "Combos";
             // 
-            // button10
+            // lblNmbrCmb1
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button10.Location = new System.Drawing.Point(640, 685);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(117, 36);
-            this.button10.TabIndex = 17;
-            this.button10.Text = "Pedir";
-            this.button10.UseVisualStyleBackColor = false;
+            this.lblNmbrCmb1.AutoSize = true;
+            this.lblNmbrCmb1.BackColor = System.Drawing.Color.Transparent;
+            this.lblNmbrCmb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNmbrCmb1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblNmbrCmb1.Location = new System.Drawing.Point(243, 278);
+            this.lblNmbrCmb1.Name = "lblNmbrCmb1";
+            this.lblNmbrCmb1.Size = new System.Drawing.Size(112, 16);
+            this.lblNmbrCmb1.TabIndex = 18;
+            this.lblNmbrCmb1.Text = "Combo #1   $15";
             // 
-            // label4
+            // nmrcCombo1
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(260, 331);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 13);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "$20";
+            this.nmrcCombo1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nmrcCombo1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nmrcCombo1.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.nmrcCombo1.Location = new System.Drawing.Point(190, 276);
+            this.nmrcCombo1.Name = "nmrcCombo1";
+            this.nmrcCombo1.Size = new System.Drawing.Size(34, 20);
+            this.nmrcCombo1.TabIndex = 25;
             // 
-            // label5
+            // nmrcCombo2
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(669, 331);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 13);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "$15";
+            this.nmrcCombo2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nmrcCombo2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nmrcCombo2.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.nmrcCombo2.Location = new System.Drawing.Point(596, 276);
+            this.nmrcCombo2.Name = "nmrcCombo2";
+            this.nmrcCombo2.Size = new System.Drawing.Size(34, 20);
+            this.nmrcCombo2.TabIndex = 26;
             // 
-            // label6
+            // nmrcCombo3
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(1081, 332);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(19, 13);
-            this.label6.TabIndex = 20;
-            this.label6.Text = "$5";
+            this.nmrcCombo3.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nmrcCombo3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nmrcCombo3.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.nmrcCombo3.Location = new System.Drawing.Point(998, 276);
+            this.nmrcCombo3.Name = "nmrcCombo3";
+            this.nmrcCombo3.Size = new System.Drawing.Size(34, 20);
+            this.nmrcCombo3.TabIndex = 27;
             // 
-            // label7
+            // pctrCombo1
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(1081, 611);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
-            this.label7.TabIndex = 23;
-            this.label7.Text = "$4.50";
+            this.pctrCombo1.BackColor = System.Drawing.Color.Transparent;
+            this.pctrCombo1.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_1_2;
+            this.pctrCombo1.Location = new System.Drawing.Point(75, 100);
+            this.pctrCombo1.Name = "pctrCombo1";
+            this.pctrCombo1.Size = new System.Drawing.Size(397, 165);
+            this.pctrCombo1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctrCombo1.TabIndex = 30;
+            this.pctrCombo1.TabStop = false;
             // 
-            // label8
+            // pctrCombo2
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(670, 612);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(19, 13);
-            this.label8.TabIndex = 22;
-            this.label8.Text = "$4";
+            this.pctrCombo2.BackColor = System.Drawing.Color.Transparent;
+            this.pctrCombo2.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.COmbo_2_3;
+            this.pctrCombo2.Location = new System.Drawing.Point(478, 100);
+            this.pctrCombo2.Name = "pctrCombo2";
+            this.pctrCombo2.Size = new System.Drawing.Size(397, 165);
+            this.pctrCombo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctrCombo2.TabIndex = 31;
+            this.pctrCombo2.TabStop = false;
             // 
-            // label9
+            // pctrCombo3
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(261, 612);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 13);
-            this.label9.TabIndex = 21;
-            this.label9.Text = "$8";
+            this.pctrCombo3.BackColor = System.Drawing.Color.Transparent;
+            this.pctrCombo3.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_3_2;
+            this.pctrCombo3.Location = new System.Drawing.Point(881, 100);
+            this.pctrCombo3.Name = "pctrCombo3";
+            this.pctrCombo3.Size = new System.Drawing.Size(397, 165);
+            this.pctrCombo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctrCombo3.TabIndex = 32;
+            this.pctrCombo3.TabStop = false;
             // 
-            // numericUpDown1
+            // pctrCombo4
             // 
-            this.numericUpDown1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.numericUpDown1.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.numericUpDown1.Location = new System.Drawing.Point(286, 609);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(34, 20);
-            this.numericUpDown1.TabIndex = 24;
+            this.pctrCombo4.BackColor = System.Drawing.Color.Transparent;
+            this.pctrCombo4.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_4_2;
+            this.pctrCombo4.Location = new System.Drawing.Point(75, 368);
+            this.pctrCombo4.Name = "pctrCombo4";
+            this.pctrCombo4.Size = new System.Drawing.Size(397, 165);
+            this.pctrCombo4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctrCombo4.TabIndex = 34;
+            this.pctrCombo4.TabStop = false;
             // 
-            // numericUpDown2
+            // pctrCombo5
             // 
-            this.numericUpDown2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.numericUpDown2.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.numericUpDown2.Location = new System.Drawing.Point(286, 329);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(34, 20);
-            this.numericUpDown2.TabIndex = 25;
+            this.pctrCombo5.BackColor = System.Drawing.Color.Transparent;
+            this.pctrCombo5.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_5_1;
+            this.pctrCombo5.Location = new System.Drawing.Point(478, 368);
+            this.pctrCombo5.Name = "pctrCombo5";
+            this.pctrCombo5.Size = new System.Drawing.Size(397, 165);
+            this.pctrCombo5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctrCombo5.TabIndex = 35;
+            this.pctrCombo5.TabStop = false;
             // 
-            // numericUpDown3
+            // pctrCombo6
             // 
-            this.numericUpDown3.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.numericUpDown3.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.numericUpDown3.Location = new System.Drawing.Point(700, 330);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(34, 20);
-            this.numericUpDown3.TabIndex = 26;
+            this.pctrCombo6.BackColor = System.Drawing.Color.Transparent;
+            this.pctrCombo6.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_6_1;
+            this.pctrCombo6.Location = new System.Drawing.Point(881, 368);
+            this.pctrCombo6.Name = "pctrCombo6";
+            this.pctrCombo6.Size = new System.Drawing.Size(397, 165);
+            this.pctrCombo6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctrCombo6.TabIndex = 36;
+            this.pctrCombo6.TabStop = false;
             // 
-            // numericUpDown4
+            // lblDtllsCmb1
             // 
-            this.numericUpDown4.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.numericUpDown4.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.numericUpDown4.Location = new System.Drawing.Point(1123, 329);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(34, 20);
-            this.numericUpDown4.TabIndex = 27;
+            this.lblDtllsCmb1.AutoSize = true;
+            this.lblDtllsCmb1.BackColor = System.Drawing.Color.Transparent;
+            this.lblDtllsCmb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDtllsCmb1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblDtllsCmb1.Location = new System.Drawing.Point(96, 312);
+            this.lblDtllsCmb1.Name = "lblDtllsCmb1";
+            this.lblDtllsCmb1.Size = new System.Drawing.Size(354, 32);
+            this.lblDtllsCmb1.TabIndex = 37;
+            this.lblDtllsCmb1.Text = "POLLO Y 1/2 + PAPAS + 4 CINNABON + GASEOSA\r\n \r\n";
+            this.lblDtllsCmb1.Click += new System.EventHandler(this.label2_Click);
             // 
-            // numericUpDown5
+            // lblNmbrCmb2
             // 
-            this.numericUpDown5.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.numericUpDown5.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.numericUpDown5.Location = new System.Drawing.Point(700, 609);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(34, 20);
-            this.numericUpDown5.TabIndex = 28;
+            this.lblNmbrCmb2.AutoSize = true;
+            this.lblNmbrCmb2.BackColor = System.Drawing.Color.Transparent;
+            this.lblNmbrCmb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNmbrCmb2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblNmbrCmb2.Location = new System.Drawing.Point(645, 278);
+            this.lblNmbrCmb2.Name = "lblNmbrCmb2";
+            this.lblNmbrCmb2.Size = new System.Drawing.Size(112, 16);
+            this.lblNmbrCmb2.TabIndex = 38;
+            this.lblNmbrCmb2.Text = "Combo #2   $17";
             // 
-            // numericUpDown6
+            // lblDtllsCmb2
             // 
-            this.numericUpDown6.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.numericUpDown6.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.numericUpDown6.Location = new System.Drawing.Point(1123, 609);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(34, 20);
-            this.numericUpDown6.TabIndex = 29;
+            this.lblDtllsCmb2.AutoSize = true;
+            this.lblDtllsCmb2.BackColor = System.Drawing.Color.Transparent;
+            this.lblDtllsCmb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDtllsCmb2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblDtllsCmb2.Location = new System.Drawing.Point(530, 312);
+            this.lblDtllsCmb2.Name = "lblDtllsCmb2";
+            this.lblDtllsCmb2.Size = new System.Drawing.Size(307, 48);
+            this.lblDtllsCmb2.TabIndex = 39;
+            this.lblDtllsCmb2.Text = "1 pollo asado, 2 porciones de papas fritas, \r\n6 alitas crispy, 1 ensalada grande " +
+    "de col, \r\n1 gaseosa de 1 litro";
+            this.lblDtllsCmb2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // lblNmbrCmb3
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_1_1;
-            this.pictureBox1.Location = new System.Drawing.Point(75, 95);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(397, 228);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 30;
-            this.pictureBox1.TabStop = false;
+            this.lblNmbrCmb3.AutoSize = true;
+            this.lblNmbrCmb3.BackColor = System.Drawing.Color.Transparent;
+            this.lblNmbrCmb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNmbrCmb3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblNmbrCmb3.Location = new System.Drawing.Point(1057, 276);
+            this.lblNmbrCmb3.Name = "lblNmbrCmb3";
+            this.lblNmbrCmb3.Size = new System.Drawing.Size(100, 16);
+            this.lblNmbrCmb3.TabIndex = 40;
+            this.lblNmbrCmb3.Text = "Combo #3  $8";
             // 
-            // pictureBox2
+            // lblDtllsCmb3
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_2_1;
-            this.pictureBox2.Location = new System.Drawing.Point(478, 96);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(397, 228);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 31;
-            this.pictureBox2.TabStop = false;
+            this.lblDtllsCmb3.AutoSize = true;
+            this.lblDtllsCmb3.BackColor = System.Drawing.Color.Transparent;
+            this.lblDtllsCmb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDtllsCmb3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblDtllsCmb3.Location = new System.Drawing.Point(929, 312);
+            this.lblDtllsCmb3.Name = "lblDtllsCmb3";
+            this.lblDtllsCmb3.Size = new System.Drawing.Size(289, 16);
+            this.lblDtllsCmb3.TabIndex = 41;
+            this.lblDtllsCmb3.Text = "Duo 1/4 de Pollo más Papas + gaseosas";
+            this.lblDtllsCmb3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox3
+            // lblDtllsCmb4
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_3_1;
-            this.pictureBox3.Location = new System.Drawing.Point(881, 95);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(397, 228);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 32;
-            this.pictureBox3.TabStop = false;
+            this.lblDtllsCmb4.AutoSize = true;
+            this.lblDtllsCmb4.BackColor = System.Drawing.Color.Transparent;
+            this.lblDtllsCmb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDtllsCmb4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblDtllsCmb4.Location = new System.Drawing.Point(119, 572);
+            this.lblDtllsCmb4.Name = "lblDtllsCmb4";
+            this.lblDtllsCmb4.Size = new System.Drawing.Size(331, 32);
+            this.lblDtllsCmb4.TabIndex = 44;
+            this.lblDtllsCmb4.Text = "2 Medios Pollos  + 2 porciones de  papas fritas\r\n \r\n";
             // 
-            // pictureBox4
+            // nmrcCombo4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(-23, -46);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox4.TabIndex = 33;
-            this.pictureBox4.TabStop = false;
+            this.nmrcCombo4.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nmrcCombo4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nmrcCombo4.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.nmrcCombo4.Location = new System.Drawing.Point(190, 539);
+            this.nmrcCombo4.Name = "nmrcCombo4";
+            this.nmrcCombo4.Size = new System.Drawing.Size(34, 20);
+            this.nmrcCombo4.TabIndex = 43;
             // 
-            // pictureBox5
+            // lblNmbrCmb4
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.combo_4;
-            this.pictureBox5.Location = new System.Drawing.Point(75, 368);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(397, 228);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 34;
-            this.pictureBox5.TabStop = false;
+            this.lblNmbrCmb4.AutoSize = true;
+            this.lblNmbrCmb4.BackColor = System.Drawing.Color.Transparent;
+            this.lblNmbrCmb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNmbrCmb4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblNmbrCmb4.Location = new System.Drawing.Point(251, 543);
+            this.lblNmbrCmb4.Name = "lblNmbrCmb4";
+            this.lblNmbrCmb4.Size = new System.Drawing.Size(104, 16);
+            this.lblNmbrCmb4.TabIndex = 42;
+            this.lblNmbrCmb4.Text = "Combo #4   $9";
             // 
-            // pictureBox6
+            // lblDtllsCmb5
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.combo_5;
-            this.pictureBox6.Location = new System.Drawing.Point(478, 368);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(397, 228);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 35;
-            this.pictureBox6.TabStop = false;
+            this.lblDtllsCmb5.AutoSize = true;
+            this.lblDtllsCmb5.BackColor = System.Drawing.Color.Transparent;
+            this.lblDtllsCmb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDtllsCmb5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblDtllsCmb5.Location = new System.Drawing.Point(593, 572);
+            this.lblDtllsCmb5.Name = "lblDtllsCmb5";
+            this.lblDtllsCmb5.Size = new System.Drawing.Size(154, 16);
+            this.lblDtllsCmb5.TabIndex = 47;
+            this.lblDtllsCmb5.Text = "2 POLLOS ENTEROS";
             // 
-            // pictureBox7
+            // nmrcCombo5
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Combo_6;
-            this.pictureBox7.Location = new System.Drawing.Point(881, 368);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(397, 228);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 36;
-            this.pictureBox7.TabStop = false;
+            this.nmrcCombo5.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nmrcCombo5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nmrcCombo5.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.nmrcCombo5.Location = new System.Drawing.Point(596, 539);
+            this.nmrcCombo5.Name = "nmrcCombo5";
+            this.nmrcCombo5.Size = new System.Drawing.Size(34, 20);
+            this.nmrcCombo5.TabIndex = 46;
+            // 
+            // lblNmbrCmb5
+            // 
+            this.lblNmbrCmb5.AutoSize = true;
+            this.lblNmbrCmb5.BackColor = System.Drawing.Color.Transparent;
+            this.lblNmbrCmb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNmbrCmb5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblNmbrCmb5.Location = new System.Drawing.Point(645, 543);
+            this.lblNmbrCmb5.Name = "lblNmbrCmb5";
+            this.lblNmbrCmb5.Size = new System.Drawing.Size(112, 16);
+            this.lblNmbrCmb5.TabIndex = 45;
+            this.lblNmbrCmb5.Text = "Combo #5   $20";
+            // 
+            // lblDtllsCmb6
+            // 
+            this.lblDtllsCmb6.AutoSize = true;
+            this.lblDtllsCmb6.BackColor = System.Drawing.Color.Transparent;
+            this.lblDtllsCmb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDtllsCmb6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblDtllsCmb6.Location = new System.Drawing.Point(929, 572);
+            this.lblDtllsCmb6.Name = "lblDtllsCmb6";
+            this.lblDtllsCmb6.Size = new System.Drawing.Size(276, 32);
+            this.lblDtllsCmb6.TabIndex = 50;
+            this.lblDtllsCmb6.Text = "400 gr de arroz con pollo, papas fritas, \r\nensalada, gaseosa personal";
+            this.lblDtllsCmb6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // nmrcCombo6
+            // 
+            this.nmrcCombo6.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.nmrcCombo6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nmrcCombo6.ForeColor = System.Drawing.SystemColors.MenuBar;
+            this.nmrcCombo6.Location = new System.Drawing.Point(998, 539);
+            this.nmrcCombo6.Name = "nmrcCombo6";
+            this.nmrcCombo6.Size = new System.Drawing.Size(34, 20);
+            this.nmrcCombo6.TabIndex = 49;
+            // 
+            // lblNmbrCmb6
+            // 
+            this.lblNmbrCmb6.AutoSize = true;
+            this.lblNmbrCmb6.BackColor = System.Drawing.Color.Transparent;
+            this.lblNmbrCmb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNmbrCmb6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblNmbrCmb6.Location = new System.Drawing.Point(1057, 543);
+            this.lblNmbrCmb6.Name = "lblNmbrCmb6";
+            this.lblNmbrCmb6.Size = new System.Drawing.Size(100, 16);
+            this.lblNmbrCmb6.TabIndex = 48;
+            this.lblNmbrCmb6.Text = "Combo #6  $4";
             // 
             // MenuCombos
             // 
@@ -324,48 +385,52 @@
             this.BackgroundImage = global::Asadero_Pollitos_En_Fuga.Properties.Resources.Fondo_menu_combos_1_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1354, 733);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.numericUpDown6);
-            this.Controls.Add(this.numericUpDown5);
-            this.Controls.Add(this.numericUpDown4);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.lblDtllsCmb6);
+            this.Controls.Add(this.nmrcCombo6);
+            this.Controls.Add(this.lblNmbrCmb6);
+            this.Controls.Add(this.lblDtllsCmb5);
+            this.Controls.Add(this.nmrcCombo5);
+            this.Controls.Add(this.lblNmbrCmb5);
+            this.Controls.Add(this.lblDtllsCmb4);
+            this.Controls.Add(this.nmrcCombo4);
+            this.Controls.Add(this.lblNmbrCmb4);
+            this.Controls.Add(this.lblDtllsCmb3);
+            this.Controls.Add(this.lblNmbrCmb3);
+            this.Controls.Add(this.lblDtllsCmb2);
+            this.Controls.Add(this.lblNmbrCmb2);
+            this.Controls.Add(this.lblDtllsCmb1);
+            this.Controls.Add(this.pctrCombo6);
+            this.Controls.Add(this.pctrCombo5);
+            this.Controls.Add(this.pctrCombo4);
+            this.Controls.Add(this.pctrCombo3);
+            this.Controls.Add(this.pctrCombo2);
+            this.Controls.Add(this.pctrCombo1);
+            this.Controls.Add(this.nmrcCombo3);
+            this.Controls.Add(this.nmrcCombo2);
+            this.Controls.Add(this.nmrcCombo1);
+            this.Controls.Add(this.lblNmbrCmb1);
+            this.Controls.Add(this.lblCmbs);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MenuCombos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asadero Pollitos en Fuga";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctrCombo6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcCombo6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,27 +439,30 @@
         #endregion
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label lblCmbs;
+        private System.Windows.Forms.Label lblNmbrCmb1;
+        private System.Windows.Forms.NumericUpDown nmrcCombo1;
+        private System.Windows.Forms.NumericUpDown nmrcCombo2;
+        private System.Windows.Forms.NumericUpDown nmrcCombo3;
+        private System.Windows.Forms.PictureBox pctrCombo1;
+        private System.Windows.Forms.PictureBox pctrCombo2;
+        private System.Windows.Forms.PictureBox pctrCombo3;
+        private System.Windows.Forms.PictureBox pctrCombo4;
+        private System.Windows.Forms.PictureBox pctrCombo5;
+        private System.Windows.Forms.PictureBox pctrCombo6;
+        private System.Windows.Forms.Label lblDtllsCmb1;
+        private System.Windows.Forms.Label lblNmbrCmb2;
+        private System.Windows.Forms.Label lblDtllsCmb2;
+        private System.Windows.Forms.Label lblNmbrCmb3;
+        private System.Windows.Forms.Label lblDtllsCmb3;
+        private System.Windows.Forms.Label lblDtllsCmb4;
+        private System.Windows.Forms.NumericUpDown nmrcCombo4;
+        private System.Windows.Forms.Label lblNmbrCmb4;
+        private System.Windows.Forms.Label lblDtllsCmb5;
+        private System.Windows.Forms.NumericUpDown nmrcCombo5;
+        private System.Windows.Forms.Label lblNmbrCmb5;
+        private System.Windows.Forms.Label lblDtllsCmb6;
+        private System.Windows.Forms.NumericUpDown nmrcCombo6;
+        private System.Windows.Forms.Label lblNmbrCmb6;
     }
 }

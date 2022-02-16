@@ -123,6 +123,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1206237.ico" />
+    <None Include="Resources\Combo 6.1.png" />
+    <None Include="Resources\Combo 5.1.png" />
+    <None Include="Resources\Combo 5.2.png" />
+    <None Include="Resources\Combo 4.2.png" />
+    <None Include="Resources\Combo 3.2.png" />
+    <None Include="Resources\COmbo 2.3.png" />
+    <None Include="Resources\Combo 1.2.png" />
     <None Include="Resources\Combo 1.1.png" />
     <None Include="Resources\Combo 2.1.jpg" />
     <None Include="Resources\Combo 3.1.png" />
