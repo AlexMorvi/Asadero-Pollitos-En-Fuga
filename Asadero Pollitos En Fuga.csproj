@@ -89,8 +89,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Carrito.resx">
+      <DependentUpon>Carrito.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCombos.resx">
+      <DependentUpon>MenuCombos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,6 +106,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +123,34 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1206237.ico" />
+    <None Include="Resources\Combo 6.1.png" />
+    <None Include="Resources\Combo 5.1.png" />
+    <None Include="Resources\Combo 5.2.png" />
+    <None Include="Resources\Combo 4.2.png" />
+    <None Include="Resources\Combo 3.2.png" />
+    <None Include="Resources\COmbo 2.3.png" />
+    <None Include="Resources\Combo 1.2.png" />
+    <None Include="Resources\Combo 1.1.png" />
+    <None Include="Resources\Combo 2.1.jpg" />
+    <None Include="Resources\Combo 3.1.png" />
+    <None Include="Resources\Combo-2.jpg" />
+    <None Include="Resources\combo-3.jpg" />
+    <None Include="Resources\Combo 1.png" />
+    <None Include="Resources\combo 4.png" />
+    <None Include="Resources\combo 5.jpg" />
+    <None Include="Resources\Combo 6.jpg" />
+    <None Include="Resources\Fondo menu combos 1.2.jpg" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\diskette.png" />
+    <None Include="Resources\dish.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\stop.png" />
+    <None Include="Resources\previous.png" />
+    <None Include="Resources\next.png" />
+    <None Include="Resources\arrow_right.png" />
+    <None Include="Resources\arrow_left.png" />
+    <None Include="Resources\Fondo menu combos.jpg" />
+    <None Include="Resources\Fondo para inicio.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
