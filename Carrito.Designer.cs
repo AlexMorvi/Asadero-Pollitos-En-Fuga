@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Carrito));
             this.label1 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnAñadirCarrito = new System.Windows.Forms.Button();
+            this.btnTerminarCompra = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -57,29 +57,29 @@
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // button1
+            // btnAñadirCarrito
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(169, 563);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(206, 48);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Añadir más ";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAñadirCarrito.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnAñadirCarrito.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAñadirCarrito.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAñadirCarrito.Location = new System.Drawing.Point(169, 563);
+            this.btnAñadirCarrito.Name = "btnAñadirCarrito";
+            this.btnAñadirCarrito.Size = new System.Drawing.Size(206, 48);
+            this.btnAñadirCarrito.TabIndex = 2;
+            this.btnAñadirCarrito.Text = "Añadir más ";
+            this.btnAñadirCarrito.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnTerminarCompra
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(968, 563);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(203, 48);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Terminar compra";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnTerminarCompra.BackColor = System.Drawing.SystemColors.Desktop;
+            this.btnTerminarCompra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTerminarCompra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTerminarCompra.Location = new System.Drawing.Point(968, 563);
+            this.btnTerminarCompra.Name = "btnTerminarCompra";
+            this.btnTerminarCompra.Size = new System.Drawing.Size(203, 48);
+            this.btnTerminarCompra.TabIndex = 3;
+            this.btnTerminarCompra.Text = "Terminar compra";
+            this.btnTerminarCompra.UseVisualStyleBackColor = false;
             // 
             // Carrito
             // 
@@ -89,8 +89,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1354, 733);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnTerminarCompra);
+            this.Controls.Add(this.btnAñadirCarrito);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -110,7 +110,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAñadirCarrito;
+        private System.Windows.Forms.Button btnTerminarCompra;
     }
 }
